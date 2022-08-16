@@ -13,20 +13,34 @@
         android:layout_height="wrap_content">
 
         <TextView
+            android:id="@+id/gold"
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Điểm: 100"
+            android:text="Vàng: 100"
+            android:layout_marginLeft="5dp"
             android:textSize="30sp"/>
-        <androidx.appcompat.widget.AppCompatButton
+
+        <TextView
+            android:id="@+id/time"
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Đổi vàng"
-            android:background="@color/teal_200"
-            android:layout_alignParentRight="true"
-            />
+            android:layout_alignParentEnd="true"
+            android:text="Level: 1"
+            android:layout_marginEnd="5dp"
+            android:textSize="30sp"/>
 
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mohop"
+            android:layout_below="@+id/gold"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mở Hộp"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"/>
 
     </RelativeLayout>
 
